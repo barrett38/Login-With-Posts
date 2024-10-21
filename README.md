@@ -5,15 +5,17 @@ To install the necessary dependencies, run the following commands:
 ```sh
 npm install
 npm install dotenv
+```
 
-Running the Application
-Frontend
-To start the frontend development server, run:
+To start the Frontend development server, run:
+
+```sh
 npm start
+```
 
-Backend
-To start the backend server, navigate to the server directory and run:
+To start the Backend server, navigate to the server directory and run:
 
+```sh
 cd server
 nodemon index.js
 ```
