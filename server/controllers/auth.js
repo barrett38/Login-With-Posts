@@ -79,4 +79,3 @@ module.exports = {
     }
   },
 };
-// Path: server/routes/auth.js
