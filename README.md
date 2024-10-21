@@ -6,7 +6,7 @@ To install the necessary dependencies, run the following commands:
 npm install
 npm install dotenv
 
-## Running the Application
+Running the Application
 Frontend
 To start the frontend development server, run:
 npm start
