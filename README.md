@@ -1,10 +1,19 @@
-Installs:
-`npm install
-`npm install dotenv
+## Installation
 
-Front End Start:
-`npm start
+To install the necessary dependencies, run the following commands:
 
-Back End Start:
-`cd server
-`nodemon index.js
+```sh
+npm install
+npm install dotenv
+
+## Running the Application
+Frontend
+To start the frontend development server, run:
+npm start
+
+Backend
+To start the backend server, navigate to the server directory and run:
+
+cd server
+nodemon index.js
+```
