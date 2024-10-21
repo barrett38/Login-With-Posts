@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 const { User } = require("../models/user");
 const bcrypt = require("bcryptjs");
 require("dotenv").config();
-const SECRET = process.env.SECRET;
+const SECRET = "INSERT YOUR SECRET HERE";
 
 let createToken = (username, id) => {
   return jwt.sign({ username, id }, SECRET, { expiresIn: "2 days" });
@@ -24,7 +24,7 @@ module.exports = {
             foundUser.dataValues.id
           );
           const exp = Date.now() + 1000 * 60 * 60 * 48;
-          console.log(foundUser)
+          console.log(foundUser);
           const data = {
             username: foundUser.dataValues.username,
             userId: foundUser.dataValues.id,
@@ -47,7 +47,7 @@ module.exports = {
     try {
       let { username, password } = req.body;
       let foundUser = await User.findOne({ where: { username: username } });
-      console.log(foundUser)
+      console.log(foundUser);
       if (foundUser) {
         res.status(400).send("Username is Taken!");
       } else {
@@ -58,7 +58,7 @@ module.exports = {
           username: username,
           hashedPass: hash,
         });
-        console.log(newUser)
+        console.log(newUser);
         let token = createToken(
           newUser.dataValues.username,
           newUser.dataValues.id
