@@ -20,4 +20,4 @@ cd server
 nodemon index.js
 ```
 
-Finally, get a CONNECTION_STRING (used in database.js) and a SECRET (used in Auth.js and isAuthenticated.js) token. I used Supabase for this Backend.
+Finally, get a CONNECTION_STRING (used in database.js) and a SECRET (used in Auth.js and isAuthenticated.js) token. I used Supabase for this Backend. No Supabase project currently connected.
