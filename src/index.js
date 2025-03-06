@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-import { AuthContextProvider } from "./store/authContext";
+import { AuthContextProvider } from "./components/Login/authContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
