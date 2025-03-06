@@ -16,8 +16,7 @@ Basic Login that transitions from "Login" to "Signup."
 # Clone the repository
 git clone https://github.com/barrett38/Profile-Page1
 
-# Adding it to Project >
-# Adjust the code below as needed >
+# Adding it to Project > Adjust the code below as needed >
 # APP.JS > Add imports
 import Auth from "./components/Login/Auth";
 
