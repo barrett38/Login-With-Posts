@@ -36,3 +36,7 @@ const { state } = useContext(AuthContext);
 - **Barrett Anderson** - [My Website](http://barrett.vercel.app)
 - **Email:** barrett1614@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/barrett1614/
+
+## Tags to follow
+
+@RememberMe
