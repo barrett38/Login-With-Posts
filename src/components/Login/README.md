@@ -39,4 +39,18 @@ const { state } = useContext(AuthContext);
 
 ## Tags to follow
 
-@RememberMe
+- JavaScript
+- React
+- Login
+- Authentication
+- Signup
+- Auth
+- React-Router
+- Context-API
+- Frontend
+- Web-Development
+- User-Authentication
+- SPA
+- Login-Component
+- Signup-Component
+- @rememberme
